@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "digraphs",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Command digraphs",
+  "description": "Allows @ to be used for relative coordinates in commands for internationalization and accessibility reasons.",
   "authors": [
     "Turnip Labs"
   ],
@@ -16,23 +16,14 @@
 	"icon": "icon.png",
   "license": "CC0-1.0",
 
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
-    ],
-		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
-		],
-		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
-		],
-		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
-		]
+			"com.github.olypolyu.digraphs.DigraphMod"
+    ]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+      "digraphs.mixins.json"
   ],
 
   "depends": {

@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.github.olypolyu.digraphs.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "DoubleCoordinateMixin",
+    "IntegerCoordinateMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
