@@ -6,7 +6,7 @@
   "name": "Command digraphs",
   "description": "Allows @ to be used for relative coordinates in commands for internationalization and accessibility reasons.",
   "authors": [
-    "Turnip Labs"
+    "Kheprep"
   ],
   "contact": {
     "homepage": "",
@@ -14,7 +14,7 @@
   },
 
 	"icon": "icon.png",
-  "license": "CC0-1.0",
+  "license": "GPLv3 or later",
 
   "environment": "client",
   "entrypoints": {
