@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Command digraphs",
-  "description": "Allows @ to be used for relative coordinates in commands for internationalization and accessibility reasons.",
+  "description": "Allows # to be used for relative coordinates in commands for internationalization and accessibility reasons.",
   "authors": [
     "Kheprep"
   ],
